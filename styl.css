@@ -1,0 +1,257 @@
+*{box-sizing:border-box}
+body{
+    font-family:'DM Sans', Arial, Helvetica, sans-serif;
+    background-color: #B8C4C0;
+}
+a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    display:block;
+    padding:8.2px;
+    border-bottom:1px solid white;
+}
+a:hover{
+    background-color:#B8C4C0;
+    color:rgb(255, 255, 255)
+}
+ul li{
+    list-style-type:none;
+    padding: 0;
+    display:inline-block;
+    width:24%
+}
+header{
+    display:flex;
+    background-color: #FFFF;
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.header1{
+    flex-direction: 50%;
+    width:50%;
+
+}
+nav{
+    flex-direction: 50%;
+    width:50%;
+    text-align:center;
+}
+footer{    
+    display:flex;
+    text-align:center;
+    background-color:#FFFF;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+}
+.footer1{
+    display:center
+}
+
+/* Index & AboutMe */
+
+.obalia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95vh;
+}
+.obsahia{
+    width: 45%;
+    padding: 20px;
+    font-size:20px
+}
+.obsahia2{
+    width: 45%;
+    padding: 20px;
+    font-size:20px
+}
+.obalia2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Kresleni */
+
+.obalkresleni{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-top:10vh;
+    padding:1em;
+}
+.obsahkresleni{
+    width:100%;
+    align-items: center;
+    text-align:center;
+    font-size:20px
+}
+.imgkresleni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.obalkresleni2{
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding:2em
+}
+.obsahkresleni2{
+    width:50%;
+    padding:2em;
+    font-size:19px
+}
+
+/* Hrani */
+.obalhrani{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-top:10vh;
+    padding:1em
+}
+.obsahhrani{
+    width:100%;
+    align-items: center;
+    text-align:center;
+    font-size:20px
+}
+.obalhrani2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+  }
+.obsahhrani2 {
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin:1.5em
+}
+
+/* Cestovani */
+
+.obalcestovani{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+    margin-top:80px
+  }
+.obsahcestovani{
+    width: 50%;
+    padding: 1em;
+    text-align: justify;
+    margin:2em;
+    font-size: 20px;
+}
+img{
+    margin:1em;
+    width:100%;
+    height:auto;
+}
+.obalcestovani2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+  }
+.obsahcestovani2 {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+@media screen and (max-width: 900px) {
+    header{
+        display:inline;
+    }
+    .header1{
+        width:100%;
+        flex-direction:100%
+    }
+    nav{
+        width:100%;
+    }
+    ul li{
+        width:24%
+    }
+    section{
+        display:inline;
+    }
+    img{
+        margin:0;
+        margin-top:10em
+    }
+    .image{
+        width:100%;
+    }
+    .obalia{
+        display:block;
+    }
+    .obalia2{
+        display:block;
+    }
+    .obsahia{
+        width:100%;
+        margin:0;
+        padding:2em;
+    }
+    .obsahia2{
+        width:100%;
+        margin:0;
+        padding:2em;
+        margin-top:15vh
+    }
+    .obalkresleni{
+        display:inline;
+    }
+    .obalkresleni2{
+        display:inline;
+    }
+    .obsahkresleni{
+        width:100%;
+        margin:0;
+        margin-top:15vh
+    }
+    .obsahkresleni2{
+        width:100%;
+        margin:0;
+        padding:2em;
+    }
+    .obalhrani{
+        display:inline;
+    }
+    .obalhrani2{
+        display:inline;
+    }
+    .obsahhrani{
+        width:100%;
+        margin:0;
+        margin-top:15vh
+    }
+    .obsahhrani2{
+        width:100%;
+        margin:0;
+        padding:2em;
+    }
+    .obalcestovani{
+        display:inline;
+    }
+    .obsahcestovani{
+        width:100%;
+        margin:0
+    }
+    .obalcestovani2{
+        display:inline;
+    }
+    .obsahcestovani2{
+        width:100%;
+        padding:2em;
+    }
+}
